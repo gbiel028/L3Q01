@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão</title>
+    <style>
+		.b{
+			background-color: blue;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			cursor: pointer;
+			font-size: 26px;
+		}
+        body{
+            background-color: blanchedalmond;
+        }
+
+	</style>
+</head>
+<body>
+    <center>
+
+    <div>
+    <h1>Interagindo com o botão</h1> 
+    </div>
+	<p>Clique no botão abaixo:</p>
+	<button class="b" onclick="Clicou()">Clique Aqui</button>
+</center>
+	<script>
+		function Clicou() {
+		 window.alert("Você clicou no botão!")
+		}
+	</script>
+</body>
+</html>
